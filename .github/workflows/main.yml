@@ -1,3 +1,2 @@
-steps:
-  - name: Setup yt-dlp
-    uses: AnimMouse/setup-yt-dlp@v1
+              - name: Setup yt-dlp
+                uses: AnimMouse/setup-yt-dlp@v1
