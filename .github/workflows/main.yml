@@ -1,0 +1,11 @@
+- name: Setup yt-dlp
+  # You may pin to the exact commit or the version.
+  # uses: AnimMouse/setup-yt-dlp@fc496bf6d8bc7d703daccabe28ace3946aea01bc
+  uses: AnimMouse/setup-yt-dlp@v1
+  with:
+    # Install yt-dlp/FFmpeg-Builds for yt-dlp
+    with-ffmpeg: # optional
+    # yt-dlp version
+    version: # optional, default is latest
+    # GitHub token to avoid API rate limiting
+    token: # optional, default is ${{ github.token }}
